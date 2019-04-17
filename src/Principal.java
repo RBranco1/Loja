@@ -1,16 +1,6 @@
 
 import java.util.Scanner;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author LABORATORIO_INFO
- */
 public class Principal {
             
     public static void main (String [] args) {
@@ -46,8 +36,25 @@ public class Principal {
         
         
         Carro carro2 = new Carro();
-
         
+                System.out.print("Nome: ");
+        carro2.nome = scan.next();
+        
+        System.out.print("Marca: ");
+        carro2.marca = scan.next();
+        
+        System.out.print("Cor: ");
+        carro2.cor = scan.next();
+        
+        System.out.print("Fabricação: ");
+        carro2.fabricação = scan.next();
+        
+        System.out.print("Largura: ");
+        carro2.largura = scan.next();
+        
+        System.out.print("Peso: ");
+        carro2.peso = scan.next();
+
         System.out.println("Nome:" + carro2.nome);
         System.out.println("Marca:" + carro2.marca);
         System.out.println("Cor:" + carro2.cor);

@@ -10,7 +10,9 @@ public class Principal {
         Scanner scan = new Scanner(System.in);
         
         System.out.print("Nome: ");
-        carro.nome = scan.next();
+        carro.setName(scan.next());
+        
+        
         
         System.out.print("Marca: ");
         carro.marca = scan.next();
